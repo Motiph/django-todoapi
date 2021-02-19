@@ -1,9 +1,8 @@
 from pathlib import Path
 
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
-SECRET_KEY = '@hgnm12&32i=ip_etvw4v+bx-zik@fwyv2_%drf3&5g41m@oy2'
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -16,6 +15,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'corsheaders',
+    'storages',
 ]
 
 MIDDLEWARE = [

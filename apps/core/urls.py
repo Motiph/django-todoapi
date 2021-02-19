@@ -28,3 +28,5 @@ urlpatterns = [
     path('todos/create/list', TodoListCreateAPIView.as_view(), name='create-list'),
     path('makejson/', CreateList.as_view(), name='makejson')
 ]
+
+
