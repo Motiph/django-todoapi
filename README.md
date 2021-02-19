@@ -98,7 +98,7 @@ heroku container:release -a appname web
 ```
 username admin
 
-password mypassword
+password mypassword123
 https://appname.herokuapp.com/admin
 
 
