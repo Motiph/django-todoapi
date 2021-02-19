@@ -54,6 +54,9 @@ python manage.py test apps.core.tests --settings=todo.settings.local
 <br />
 
 ## **Deploy en Heroku**
+
+
+
 Es necesario tener instalado Heroku CLI
 
 Editamos el DockerFile y lo dejamos de estar forma
@@ -101,6 +104,8 @@ username admin
 password mypassword123
 https://appname.herokuapp.com/admin
 
+
+**NOTA**: No es no necesario ejecutar python manage.py collectstatic ya que se creó un storage en AWS para las peticiones de los static files 
 
 <br />
 
