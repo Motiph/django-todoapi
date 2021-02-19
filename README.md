@@ -43,6 +43,14 @@ username admin
 password mypassword
 http://localhost:8000/admin/
 
+
+**TESTS**
+
+```
+python manage.py test apps.core.tests --settings=todo.settings.local
+```
+
+
 <br />
 
 ## **Deploy en Heroku**
