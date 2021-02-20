@@ -228,5 +228,6 @@ Puede regresar XML y JSON dependiendo el request
 <br />
 
 **Obtener las tareas cuya descripción incluya con una cadena de búsqueda**
+Puede regresar XML y JSON dependiendo el request
 
 **GET** https://django-todoapi.herokuapp.com/api/todos/search?q=CADENADEBUSQUEDA
