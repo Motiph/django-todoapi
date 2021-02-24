@@ -137,7 +137,7 @@ request
 response
 
 {
-    "access_token": "53f9183837695b339e08cf017394fe47a3544917"
+    "access_token": "6369269c9ee86566b751919d91f8ddb36d2c16ee"
 }
 
 ```
@@ -151,7 +151,7 @@ Todo lo siguente APLICA tambien al ambiente local, la base de datos en la nube s
 Para cada una de las siguientes peticiones es necesario enviar el token autorizacion en los headers
 
 ```
-{"Authorization":  "Token 53f9183837695b339e08cf017394fe47a3544917"}
+{"Authorization":  "Token 6369269c9ee86566b751919d91f8ddb36d2c16ee"}
 ```
 
 
